@@ -1,0 +1,107 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #767575;
+  background: #f9f9f9;
+}
+header .my-link{
+  font-weight: 600;
+}
+.main-pic{
+  background: url(../images/main-pic.jpg) 50% 0 no-repeat;
+  background-size: cover;
+  padding: 20%  10% ;
+}
+.main-title{
+  font-weight: 800;
+  text-align: center;
+  font-size: 48px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.services h2{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  padding: 94px 0 15px;
+}
+.services p{
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+.my-col i{
+  font-size: 40px;
+  padding:38px 0;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.my-col p{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding:20px 20px ;
+  color: #515151;
+}
+.my-col h4{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.right-text,
+.left-text{
+  padding: 15% 80px 20px 40px;
+}
+h3{
+ font-size: 30px;
+ font-weight: 800;
+}
+.right-text p,
+.left-text p{
+ font-weight: 500;
+}
+.left-text .text-arrow{
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.left-text ul{
+  list-style: none;
+}
+.text-arrow::before{
+  content: "";
+  position: absolute;
+  background: url(../images/arrow.png) 0 0 no-repeat;
+  width: 12px;
+  height: 13px;
+  top: 5px;
+  left: -30px;
+}
+.graphics{
+  display: block;
+  border: none;
+  border-radius: 0;
+  position: relative;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, 0);
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+  border-radius: 0;
+}
+.card p{
+  font-size: 12px;
+  color: #4b4b4b;
+  font-weight: 800;
+
+}
+footer p{
+  font-size: 11px;
+}
+
+
